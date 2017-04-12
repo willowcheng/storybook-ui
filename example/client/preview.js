@@ -58,6 +58,7 @@ export default class Preview extends React.Component {
             <button onClick={this.toggleFullscreen.bind(this)}>Go FullScreen</button>
           </li>
         </ul>
+        <input type="text" autoFocus />
       </div>
     );
   }
